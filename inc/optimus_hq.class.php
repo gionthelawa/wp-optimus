@@ -181,7 +181,7 @@ class Optimus_HQ
             $response = wp_safe_remote_get(
                 sprintf(
                     '%s/%s',
-                    'https://verify.optimus.io',
+                    'https://verify.rednet.ge',
                     $key
                 )
             );

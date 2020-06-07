@@ -462,7 +462,7 @@ class Optimus_Request
                 '%s://%s.%s/%s?%s',
                 self::$_remote_scheme,
                 'magic',
-                'optimus.io',
+                'rednet.ge',
                 Optimus_HQ::get_key(),
                 self::_curl_optimus_task($args)
             ),
